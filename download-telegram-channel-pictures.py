@@ -37,6 +37,7 @@ total = len(photos)
 index = 0
 for photo in photos:
     filename = picture_storage_path + str(photo.id) + ".jpg"
-    print("downloading:", ++index, "/", total, " : ", filename)
+    index = index + 1
+    print("downloading:", index, "/", total, " : ", filename)
     client.download_media(photo, filename)
 print("Done.")
