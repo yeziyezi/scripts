@@ -13,6 +13,15 @@
 [Telethon](https://github.com/LonamiWebs/Telethon) 
 [PySocks](https://github.com/Anorov/PySocks)
 
+打开 download-telegram-channel-pictures.py 修改以下代码  
+api_id = 123456
+api_hash = "af042a39824c6"
+channel_link = "https://t.me/xx"  
+
+根据需要选择修改 以下代码  
+proxy = (socks.SOCKS5, '127.0.0.1', 1080) 
+#proxy = None  
+
 找个位置开启命令行
 
 git clone https://github.com/Jxh98/scripts
