@@ -13,12 +13,14 @@
 [Telethon](https://github.com/LonamiWebs/Telethon) 
 [PySocks](https://github.com/Anorov/PySocks)
 
+找个位置开启命令行
+
 git clone https://github.com/Jxh98/scripts
 
 python ./download-telegram-channel-pictures.py
 
-输入手机号码  例子 +86 13012341234
-输入Telegram中的验证码  例子 12345
+输入手机号码  例子 +86 13012341234  
+输入Telegram中的验证码  例子 12345  
 
 喝杯咖啡等待一下吧！
 
