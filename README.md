@@ -1,4 +1,4 @@
-# scripts
+# Scripts
 一些实用小脚本的集合，不定期更新～
 ### 下载telegram频道中的图片
 - 链接：[download-telegram-channel-pictures.py](./download-telegram-channel-pictures.py)
