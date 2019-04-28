@@ -12,4 +12,9 @@
 - 注意事项：首次运行脚本需要输入tg所绑定的手机号和验证码，然后telethon才能以你的身份登录去下载图片
 - 其他说明：[关于Telethon的文档在这里](https://telethon.readthedocs.io/en/latest/index.html)
 
+### 删除指定文件夹下的重复文件
+- 链接：[delete-duplicate-files.rb](./delete-duplicate-files.rb)
+- 环境：ruby2.6.2
+- 使用方法：将文件中“指定文件夹”替换为需要的值，然后```ruby delete-duplicate-files.rb```运行。
+
 ### 待更新……
