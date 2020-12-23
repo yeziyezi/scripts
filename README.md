@@ -4,7 +4,8 @@
 - 链接：[download-telegram-channel-pictures.py](./download-telegram-channel-pictures.py)
 
 - 环境: python3
-- 依赖: Telethon,PySocks(如果需要通过代理连接到telegram的话)
+- 依赖: Telethon
+  - 如果需要通过代理连接到telegram的话: aiohttp_socks (Python version>=3.6), PySocks (<=3.5)
 - 使用方法: 
 1. 在[my.telegram.org/apps](https://my.telegram.org/apps)拿到你的api-id以及api-hash
 2.  将一些变量替换成你需要的值

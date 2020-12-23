@@ -1,5 +1,4 @@
 from telethon import TelegramClient,sync
-import socks #如果你不需要通过代理连接Telegram，可以删掉这一行
 from telethon.tl.types import InputMessagesFilterPhotos
 proxy = None
 # =============需要被替换的值=================
@@ -13,7 +12,7 @@ picture_storage_path 图片下载到的路径
 api_id = 123456
 api_hash = "23jhbfj23kbf3wkfbwk3j8w3fbesiug"
 channel_link = "https://t.me/xxxx"
-proxy =(socks.SOCKS5,"localhost",12345) #不需要代理的话删掉该行
+proxy =("socks5","localhost",12345) #不需要代理的话删掉该行
 picture_storage_path = "picture_storage_path"
 # ==========================================
 client = TelegramClient('my_session',api_id=api_id,api_hash=api_hash,proxy=proxy).start()
